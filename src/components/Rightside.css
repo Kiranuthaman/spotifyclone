@@ -1,0 +1,41 @@
+
+.rights-container {
+    background-color: #0C090A;
+    width: 600px;
+    overflow-y: scroll;
+    scrollbar-width: thin; 
+    scrollbar-color: transparent transparent;
+  }
+  
+  .rights-container::-webkit-scrollbar {
+    width: 6px; 
+    background-color: transparent;
+  }
+  
+  .rights-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+  }
+  
+  .rights-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  
+ 
+  .image-container img {
+    width: 250px;
+    height: 250px;
+  }
+  
+
+  .icon-style {
+    color: #ffffff;
+  }
+  
+  .credits-container {
+    max-width: 300px;
+  }
+  
+  .margin-increase{
+    margin-top: 100px;
+  }

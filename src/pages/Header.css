@@ -1,0 +1,29 @@
+#inoutbox::placeholder {
+    color: #ffffff; 
+    opacity: 1; 
+}
+#search-icon{
+    margin-top: 16px;
+    margin-left: 20px;
+}
+#inoutbox{
+    border: black;
+    
+}
+.music-player-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .progress-bar-container input[type="range"] {
+    accent-color: #1db954; /* Spotify green */
+  }
+  #gradient{
+    background: #6a3093;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }  
